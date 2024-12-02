@@ -1,12 +1,12 @@
 import { CiClock2 } from "react-icons/ci";
 import { FaFire } from "react-icons/fa";
 
-const Recipe = ({ recipe }) => {
+const Recipe = ({ recipe, handelWantToCook }) => {
     const { recipe_name, recipe_description, recipe_time, ingredients, recipe_calories } = recipe;
-    console.log(recipe)
+
     return (
         <div>
-            <div className="card card-compact  w-96 shadow-xl border-2">
+            <div className="card card-compact  md:w-96 shadow-xl border-2">
                 <figure className='p-3'>
                     <img className='rounded-xl'
                         src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
@@ -34,7 +34,7 @@ const Recipe = ({ recipe }) => {
                         </div>
                     </div>
                     <div>
-                        <button className="btn btn-accent text-xl">Want To Cook</button>
+                        <button onClick={() => handelWantToCook(recipe)} className="btn btn-accent text-xl">Want To Cook</button>
                     </div>
                 </div>
             </div>
