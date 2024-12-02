@@ -1,5 +1,6 @@
 [
     {
+        "recipe_id": "1",
         "recipe_img": "https://example.com/images/spaghetti.jpg",
         "recipe_name": "Classic Spaghetti Bolognese",
         "recipe_description": "A hearty and traditional Italian pasta dish with a rich, meaty tomato sauce.",
@@ -21,6 +22,7 @@
         "recipe_calories": "450 kcal"
     },
     {
+        "recipe_id": "2",
         "recipe_img": "https://example.com/images/caesar-salad.jpg",
         "recipe_name": "Caesar Salad",
         "recipe_description": "A fresh and crisp salad with romaine lettuce, croutons, and a tangy Caesar dressing.",
