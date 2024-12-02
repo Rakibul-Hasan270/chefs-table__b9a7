@@ -1,7 +1,7 @@
 [
     {
         "recipe_id": "1",
-        "recipe_img": "https://example.com/images/spaghetti.jpg",
+        "recipe_img": "https://i.postimg.cc/3RVhptMk/healthy-vegetable-soup-cooked-with-fresh-meat-generated-by-ai.jpg",
         "recipe_name": "Classic Spaghetti Bolognese",
         "recipe_description": "A hearty and traditional Italian pasta dish with a rich, meaty tomato sauce.",
         "ingredients": [
@@ -18,12 +18,12 @@
                 "quantity": "1 cup"
             }
         ],
-        "recipe_time": "30 minutes",
-        "recipe_calories": "450 kcal"
+        "recipe_time": "30",
+        "recipe_calories": "450"
     },
     {
         "recipe_id": "2",
-        "recipe_img": "https://example.com/images/caesar-salad.jpg",
+        "recipe_img": "https://i.postimg.cc/WzZv70jX/fresh-vegetarian-stew-with-beans-cilantro-generated-by-ai.jpg",
         "recipe_name": "Caesar Salad",
         "recipe_description": "A fresh and crisp salad with romaine lettuce, croutons, and a tangy Caesar dressing.",
         "ingredients": [
@@ -40,7 +40,7 @@
                 "quantity": "2 tbsp"
             }
         ],
-        "recipe_time": "15 minutes",
-        "recipe_calories": "300 kcal"
+        "recipe_time": "15",
+        "recipe_calories": "300"
     }
 ]

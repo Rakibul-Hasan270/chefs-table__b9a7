@@ -2,14 +2,14 @@ import { CiClock2 } from "react-icons/ci";
 import { FaFire } from "react-icons/fa";
 
 const Recipe = ({ recipe, handelWantToCook }) => {
-    const { recipe_name, recipe_description, recipe_time, ingredients, recipe_calories } = recipe;
+    const { recipe_name, recipe_description, recipe_time, ingredients, recipe_calories, recipe_img } = recipe;
 
     return (
         <div>
             <div className="card card-compact  md:w-96 shadow-xl border-2">
                 <figure className='p-3'>
                     <img className='rounded-xl'
-                        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                        src={recipe_img}
                         alt="Shoes" />
                 </figure>
                 <div className="card-body p-3">
@@ -26,11 +26,11 @@ const Recipe = ({ recipe, handelWantToCook }) => {
                     <div className='flex gap-8 mb-4'>
                         <div className="flex items-center gap-1">
                             <span><CiClock2 /></span>
-                            <span> {recipe_time}</span>
+                            <span> {recipe_time} min</span>
                         </div>
                         <div className="flex items-center gap-1">
                             <span><FaFire /> </span>
-                            <span> {recipe_calories}</span>
+                            <span> {recipe_calories} kcal</span>
                         </div>
                     </div>
                     <div>
